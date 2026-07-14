@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import Navigation from './Navigation'
 
 
 const ViewTeam = () => {
@@ -22,6 +23,7 @@ const ViewTeam = () => {
 
   return (
     <div>
+        <Navigation/>
         
         <h2 className="text-center mb-4">View Lab Entry</h2>
         <table className="table table-bordered table-striped table-hover">
